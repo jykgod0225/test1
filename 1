@@ -1,0 +1,287 @@
+<DOCTYPE! html>
+
+<Style>
+
+body{
+color:white;
+background: url(https://www.pinkfloyd.com/images/bg_home.jpg);
+display:flex;
+align-items:stretch;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+
+header li {
+  display: inline;
+  float: left;
+
+}
+
+header a {
+  display: block;
+  padding: 8px;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+#header{
+  position: fixed;
+  top: 0;
+  min-height: 100px;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background:black;
+  width: 100%;
+}
+
+@media (max-width: 100px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#nav-bar{
+color: white;
+font-size:20px;
+text-align:right;
+
+}
+
+.nav-link{
+color:white;
+font-size:0.8em;
+width:100%;
+}
+
+h1{
+  text-align:center;
+  font-size: 2em;
+  margin-top:3em;
+  margin-bottom:1em;
+}
+
+h2{text-align:center;
+}
+
+video{
+  display:flex;
+  width:80%;
+margin:10%;
+  justify-items: center;
+}
+
+
+#form{}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#form{
+  text-align: center;
+}
+
+#submit{
+  background-color:red;
+  border-radius:3%;
+
+}
+
+#submit:hover{
+  color:blue;
+}
+
+img{
+  max-width:100%;
+}
+
+#header-img{
+ width: 20vw; 
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 70px;
+
+}
+
+@media (max-width: 1000px) {
+  #header-img{
+    position: relative;
+  }
+}
+#features{
+
+}
+#how it works{}
+#pricing{}
+li {
+  list-style: none;
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: 80px 200px auto;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: 0,1, auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+}
+
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+  </Style>
+
+
+<Header id="header">
+<img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Pink_Floyd_logo.jpg" alt="logo">
+
+<nav id="nav-bar">
+  <ul>
+<li><a href="#section1" class="nav-link">features</a></li>
+<li><a href="#section2" class="nav-link">how it works</a></li>
+<li><a href="#section3" class="nav-link">pricing</a></li>
+</ul>
+
+  </nav>
+  
+</header>
+
+
+
+<h1 id="title">Handcrafted, home-made masterpieces</h1>
+
+<form id="form" action=<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwtxKr8KSV6crOOC1LyVzKdcQ8qpbWmZaf8ubzos9NH5wMtw/viewform?embedded=true"</iframe>
+<Label for "email">Subscribe for our newsletter</label><BR>
+<Input type="email" id="email" name="email" Placeholder="Enter Email"></input><br>
+<input id="submit" type="submit" value="Subscribe">
+</form>
+
+  <h2 id="section1">Features</h2>
+<div>
+  <ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+
+
+
+
+  <h2 id="section2">How It Works</h2>
+
+
+
+<video id="video"
+src="https://www.youtube.com/watch?v=YwLaCNdvNOQ">
+</video>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+
+  <h2 id="section3">Pricing</h2>
+
+
+asdfhbakfkafajdhf<BR><BR>
+
+<div class="product">
+<div class="grid-container">
+  <div class="grid-item">1adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">21adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">31adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">41adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">51adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">61adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">71adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">81adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskj<br>fnakjf<strong>na</strong>kjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+  <div class="grid-item">91adfafknaskfjnkafnandfkanfajnfkandfkandfkjnakfjnaskfjnadkfjnakjdfnakfjdnaskjfnakjfnakjfnaksjdfnakjfdnaskvjndsakvjnakdv</div>
+</div>
+
+<BR><BR><BR><BR><BR><BR>
+<BR><BR>
+h
+
+<footer>
+<ul>
+  <li>  afdaf
+  afadf
+  </footer>
+
+
+
